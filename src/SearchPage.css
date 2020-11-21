@@ -1,0 +1,44 @@
+.searchPage {
+  flex: 0.85;
+  background-color: hsl(0, 0%, 98%);
+  padding: 20px 20px;
+  position: relative;
+  left: 240px;
+}
+
+/* .recommendedVideos {
+  flex: 0.85;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  padding-bottom: 0;
+  position: relative;
+  left: 200px;
+} */
+
+.searchPage__filter {
+  display: flex;
+  align-items: center;
+  color: #606060;
+  font-size: xx-small !important;
+}
+
+.searchPage__filter > h2 {
+  margin-left: 10px;
+}
+
+.searchPage > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .searchPage {
+    flex: 1;
+    padding: 10px 20px;
+    position: initial;
+    overflow-x: hidden;
+  }
+}
